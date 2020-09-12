@@ -5,7 +5,7 @@ class Watch extends React.Component {
         return (
             <div className="Watch">
                 <div className="image-container">
-                    <img src={this.props.watch.src} alt="" />
+                    <img src={this.props.watch.src} alt="" title="Watch"/>
                 </div>
                 <h2>{this.props.watch.title}</h2>
                 <h3>{this.props.watch.price}</h3>
@@ -13,3 +13,5 @@ class Watch extends React.Component {
         )
     }
 }
+
+export default Watch;

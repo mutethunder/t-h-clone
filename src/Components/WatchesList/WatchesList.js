@@ -10,3 +10,5 @@ class WatchesList extends React.Component {
     );
   }
 }
+
+export default WatchesList;
